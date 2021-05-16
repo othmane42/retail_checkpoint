@@ -14,5 +14,5 @@ pip install git+https://github.com/lucasb-eyer/pydensecrf.git
 ## how to use
 
 ```
-python main.py --source 0 #webcam 
+python main.py --source 0 #webcam --weight_salient PATH_TO_SALIENT_DETECTOR_WEIGHTS 
 ```
